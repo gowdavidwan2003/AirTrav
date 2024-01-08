@@ -205,7 +205,7 @@ def update_graph(year_value, month_value):
     return fig  # return the figure
 
 if __name__ == '__main__':
-    app.run_server(port=8080, host='127.0.0.1', debug=True)
+    app.run_server(debug=False)
 
 
 # In[ ]:
