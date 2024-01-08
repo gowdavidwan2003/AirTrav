@@ -17,7 +17,8 @@ The dashboard includes several features:
 
 1. Clone the repository.
 2. Install the necessary packages listed in `requirements.txt` using pip: `pip install -r requirements.txt`.
-3. Run the Dash app locally with: `python dashapp.py`.
+3. Change from production eenvironment to development environment
+4. Run the Dash app locally with: `python dashapp.py`.
 
 ## Deployment
 
