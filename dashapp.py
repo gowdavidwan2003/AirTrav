@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+r#!/usr/bin/env python
 # coding: utf-8
 
 # In[1]:
@@ -29,7 +29,7 @@ df = pd.read_csv('airlines_data.csv')
 
 
 app = dash.Dash(__name__)
-
+server = app.server
 
 # In[51]:
 
