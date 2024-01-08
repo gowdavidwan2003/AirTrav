@@ -28,8 +28,6 @@ df = pd.read_csv('airlines_data.csv')
 # In[50]:
 
 
-app = dash.Dash(__name__)
-server = app.server
 
 # In[51]:
 
@@ -40,7 +38,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
-
+server = app.server
 # Prepare the options for the dropdowns
 year_options = [2015,2016]
 month_options = [{'label': month, 'value': month} for month in df.MONTH.unique()]
